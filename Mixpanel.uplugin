@@ -1,0 +1,21 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Mixpanel Analytics Provider",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "dotneB",
+	"CreatedByURL" : "https://github.com/dotneB/ue4-mixpanel-analyticprovider.git",
+	"EngineVersion" : "4.6.0",
+	"Description" : "Analytic Provider for Mixpanel.com",
+	"Category" : "Analytics.Provider",
+	
+	"Modules" :
+	[
+		{
+			"Name" : "Mixpanel",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		}
+	]
+}
